@@ -1,0 +1,8 @@
+# ignore test file
+test.py
+
+# ignore making plots file
+making_plots.py
+
+# ignore red_state_VPP_formation.py file
+red_state_VPP_formation.py
