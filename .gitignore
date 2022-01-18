@@ -6,3 +6,7 @@ making_plots.py
 
 # ignore red_state_VPP_formation.py file
 red_state_VPP_formation.py
+
+config.ini
+consumption_and_flexibility_examples/
+flex_data/

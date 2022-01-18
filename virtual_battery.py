@@ -106,7 +106,7 @@ else:
 print('\nAdvanced usage:')
 print('Problem solved in %f milliseconds' % solver.wall_time())
 print('Problem solved in %d iterations' % solver.iterations())
-print('Problem solved in %d branch-and-bound nodes' % solver.nodes())
+# print('Problem solved in %d branch-and-bound nodes' % solver.nodes())
     
 
 
@@ -199,7 +199,7 @@ plt.grid(axis = 'y')
 # plt.grid(True)
 plt.show()
 
-import ipdb; ipdb.set_trace()
+# import ipdb; ipdb.set_trace()
 
 baseline_cost = sum(consumption_96 * prices_array) / 1000 / 4
 optimised_setpoint_cost = sum(desired_setpoint * prices_array) / 1000 / 4
