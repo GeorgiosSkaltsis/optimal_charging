@@ -5,14 +5,13 @@ test.py
 making_plots.py
 
 # ignore red_state_VPP_formation.py file
-red_state_VPP_formation.py
+# red_state_VPP_formation.py
 
-# config.ini
-consumption_and_flexibility_examples/
-flex_data/
-ILP.py
-create_flexibility_events.py
-formulation_on_ortools.py
-1st_custom_heuristic_ILP.py
-utilities.py
-virtual_battery.py
+# consumption_and_flexibility_examples/
+# flex_data/
+# ILP.py
+# create_flexibility_events.py
+# formulation_on_ortools.py
+# 1st_custom_heuristic_ILP.py
+# utilities.py
+# virtual_battery.py
