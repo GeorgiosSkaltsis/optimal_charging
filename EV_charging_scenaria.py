@@ -61,8 +61,8 @@ EV_testing_car = EV_model(E_max_capacity, c_rate, E_ss_0, hetta_in, hetta_in)
 
 # # 3rd: cost & time multiobjective optimization. + desired final SoC is an additional input (default is 100%)
 # Practically, it is cost-optimal with a minimum amount of power in.
-minimum_charge_rate = 0.4
-[charging_strategy_3rd_policy, cost_3rd_policy, duration_3rd] = run_opt_3rd(EV_testing_car, prices_array, max_number_of_intervals , final_SoC , minimum_charge_rate ) 
+
+[charging_strategy_3rd_policy, cost_3rd_policy, duration_3rd] = run_opt_3rd(EV_testing_car, prices_array, max_number_of_intervals , final_SoC ) 
 
 # # 4th: cost & time multiobjective optimization. + desired final SoC is an additional input (default is 100%)
 # [charging_strategy_3rd_policy, cost_3rd_policy] = run_opt_4th(EV_testing_car,) 

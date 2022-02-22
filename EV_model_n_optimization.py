@@ -139,7 +139,7 @@ def run_opt_2nd(EV_testing, market_prices, max_number_of_intervals:int= 20, fina
     
     return P_in_t_array, cost_of_charging, duration
 
-def run_opt_3rd(EV_testing, market_prices, max_number_of_intervals:int= 20, final_SoC:float = 1.0, minimum_charge_rate:float = 0.5):
+def run_opt_3rd(EV_testing, market_prices, max_number_of_intervals:int= 20, final_SoC:float = 1.0):
     """
     3rd: cost & time multiobjective optimization. 
     + desired final SoC is an additional input (default is 100%)

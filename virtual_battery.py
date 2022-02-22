@@ -66,7 +66,7 @@ plt.grid(axis = 'y')
 plt.show()
 
 P_max = np.maximum(flex_up.max(), flex_down.max())
-E_max_capacity = P_max * 15 # [kWh]. That is, the maximum storage capacity is that if empty it can keep charging with P_max for an hour untill fully charged.
+E_max_capacity = P_max * 2 # [kWh]. That is, the maximum storage capacity is that if empty it can keep charging with P_max for an hour untill fully charged.
 E_ss_0 = 0.5 * E_max_capacity
 hetta_in = 0.8
 hetta_out = 0.8
@@ -203,3 +203,4 @@ plt.show()
 
 baseline_cost = sum(consumption_96 * prices_array) / 1000 / 4
 optimised_setpoint_cost = sum(desired_setpoint * prices_array) / 1000 / 4
+print('Baseline cost was equal to ', baseline_cost, ', whereas optimised cost is equal to ' , optimised_setpoint_cost)
