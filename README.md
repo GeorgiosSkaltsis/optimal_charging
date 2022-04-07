@@ -1,5 +1,5 @@
 ##  Introduction
-The task of optimal charging of an EV can be formulated as a [Linear Programming (LP)](https://github.com/GeorgiosSkaltsis/optimal_charging/wiki/Linear-Programming)   problem. In the following we present four different smart charging algorithms for EVs. Specifically, we formulate the problem for
+The task of optimal charging of an EV can be formulated as a Linear Programming (LP)   problem. In the following we present four different smart charging algorithms for EVs. Specifically, we formulate the problem for
 - cost-optimal charging given a price forecast of a real-time market,
 - fast-as-possible charging,
 - a multi-objective optimization scheme that finds a trade-off between cost-optimal and fast-as-possible,
